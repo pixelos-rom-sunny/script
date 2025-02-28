@@ -16,12 +16,6 @@ rm -rf packages/apps/KProfiles
 rm -rf hardware/xiaomi
 rm -rf prebuilts/gcc/linux-x86/aarch64/aarch64-elf
 rm -rf prebuilts/gcc/linux-x86/arm/arm-eabi
-rm -rf packages/apps/ViPER4AndroidFX
-rm -rf vendor/bcr
-rm -rf vendor/xiaomi/mojito-leicacamera
-rm -rf vendor/xiaomi/miuiapps
-rm -rf vendor/xiaomi/dynamicSpot
-rm -rf vendor/lineage-priv/keys
 # must remove
 rm -rf hardware/qcom-caf/sm8150/media
 
@@ -51,7 +45,7 @@ git clone https://github.com/StatiXOS/android_prebuilts_gcc_linux-x86_arm_arm-ea
 
 # source mods
 rm -rf vendor/aosp
-git clone https://github.com/rising-source-mod/vendor_aosp.git -b fifteen vendor/aosp
+git clone https://github.com/pixelos-rom-sunny/vendor_aosp.git -b fifteen vendor/aosp
 
 . build/envsetup.sh
 lunch aosp_sunny-ap4a-user
