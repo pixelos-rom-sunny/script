@@ -50,5 +50,3 @@ git clone https://github.com/pixelos-rom-sunny/vendor_aosp.git -b fifteen vendor
 . build/envsetup.sh
 lunch aosp_sunny-ap4a-user
 mka bacon
-
-
